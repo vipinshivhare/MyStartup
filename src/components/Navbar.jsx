@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-content">
           <Link to="/" className="navbar-logo">
-            PERSIST VENTURES
+            <img src={logo} alt="Persist Ventures" className="logo-image" />
           </Link>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <div className="navbar-links">
