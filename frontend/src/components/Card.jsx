@@ -4,6 +4,7 @@ import './Card.css';
 
 const Card = ({ title, description, imageUrl, fundingOffered, deadline }) => {
   return (
+    
     <div className="card">
       <div className="card-image">
         <img src={imageUrl} alt={title} className="card-icon" />
